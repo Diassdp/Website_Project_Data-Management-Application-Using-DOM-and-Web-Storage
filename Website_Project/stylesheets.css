@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+:root {
+    --Light: #ffff;
+    --Primary: #B9ABBD;
+    --Background: #0F0D10;
+    --Text: #EBE7EC;
+    --Secondary: #595246;
+    --Accent: #8A9072;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+html {
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 4.210rem;
+}
+
+h2 {
+    font-size: 3.158rem;
+}
+
+h3 {
+    font-size: 2.369rem;
+}
+
+h4 {
+    font-size: 1.777rem;
+}
+
+h5 {
+    font-size: 1.333rem;
+}
+
+small {
+    font-size: 0.750rem;
+}
+
+body {
+    background-color: var(--Background);
+    color: var(--Text);
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+header {
+    display: flexbox;
+    flex-wrap: nowrap;
+}
+
+nav {
+    background-color: var(--Background);
+    overflow: hidden;
+    border-bottom: 1px solid var(--Accent);
+    padding: 1rem;
+}
+
+nav a {
+    flex-direction: left;
+    color: var(--Text);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: var(--Primary);
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+main #content {
+    flex: 1;
+    display: flex;
+    border: 1px solid #fff;
+    padding: 20px;
+    width: auto;
+}
+
+aside {
+    flex: 2;
+    display: flex;
+    padding: 1rem;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-left: auto;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    width: fit-content;
+}
+
+footer {
+    border-top: 2px solid var(--Accent);
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links a {
+    color: var(--Text);
+    text-decoration: none;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--Text);
+    align-items: center;
+    text-align: center;
+}
